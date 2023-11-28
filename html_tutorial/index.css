@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation {
+	background: rgb(229, 156, 20);
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	gap: 10px;
+	padding: 7px 7px;
+}
+
+.navigation h6 {
+	color: red;
+	font-size: 15px;
+}
+
+.main__section {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: fit-content;
+	padding-bottom: 2rem;
+}
+
+.main__section .container__1 {
+	flex: 4;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	background-color: grey;
+}
+
+.main__section .container__2 {
+	flex: 1;
+	background-color: rgb(140, 103, 103);
+}
+
+.container__1 .para__1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.container__1 .para__2 {
+	margin-bottom: 40px;
+}
+
+.container__1 li {
+	list-style: none;
+}
+
+.container__1 li a {
+	text-decoration: none;
+	color: black;
+}
+
+.blog__wrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+.blog__wrapper .blog {
+	background-color: rgb(22, 6, 6);
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+	border-radius: 2px;
+	border: 2px solid black;
+}
+
+.blog__wrapper .image__container {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(224, 137, 137);
+}
